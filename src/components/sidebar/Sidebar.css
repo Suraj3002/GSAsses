@@ -1,0 +1,90 @@
+.sidebar{
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
+}
+hr{
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+}
+.center{
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 16px;
+    font-weight: light;
+    color: #999;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #ece8ff;
+}
+.keyup{
+    margin-left: 40px;
+}
+span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+}
+.page{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+.page:hover{
+    background-color: #ece8ff;
+}
+.help-down{
+    margin-left: 30px;
+}
+.file-down{
+    margin-left: 25px;
+}
+.ptext{
+    margin-left: 5px;
+}
+.dash{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.bottom-logo{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.b-logo{
+    margin: 10px;
+}
